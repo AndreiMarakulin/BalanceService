@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"avito-internship/internal/model"
+	"balance-service/internal/model"
 )
 
 type OrderRepo interface {

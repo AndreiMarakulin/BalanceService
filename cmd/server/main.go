@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	"avito-internship/config"
-	"avito-internship/internal/controller"
-	"avito-internship/internal/repository"
-	"avito-internship/internal/usecase"
+	"balance-service/config"
+	"balance-service/internal/controller"
+	"balance-service/internal/repository"
+	"balance-service/internal/usecase"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/jackc/pgx/v5/pgxpool"

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"log"
 
-	"avito-internship/internal/model"
-	"avito-internship/internal/usecase"
+	"balance-service/internal/model"
+	"balance-service/internal/usecase"
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"

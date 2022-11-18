@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"avito-internship/internal/model"
-	"avito-internship/internal/usecase"
+	"balance-service/internal/model"
+	"balance-service/internal/usecase"
 
 	"github.com/go-chi/chi/v5"
 )

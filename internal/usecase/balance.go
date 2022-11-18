@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"avito-internship/internal/model"
+	"balance-service/internal/model"
 )
 
 var (
