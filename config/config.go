@@ -19,7 +19,7 @@ func New() *Config {
 			Port: "8080",
 		},
 		PG{
-			URL: "postgres://user:passw0rd@localhost:5432/balance",
+			URL: "postgres://user:passw0rd@postgres:5432/balance",
 		},
 	}
 }

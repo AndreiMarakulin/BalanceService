@@ -12,16 +12,16 @@ services:
     ports:
       - 5432:5432
 
-#  app:
-#    build: .
-#    container_name: app
-#    image: app
+  app:
+    build: .
+    container_name: app
+    image: app
 #    environment:
-#      PG_URL: 'postgres://user:pass@postgres:5432/postgres'
-#    ports:
-#      - 8080:8080
-#    depends_on:
-#      - postgres
+#      PG_URL: 'postgres://user:passw0rd@postgres:5432/postgres'
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
 
 volumes:
   pg-data:
